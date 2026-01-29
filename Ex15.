@@ -1,0 +1,7 @@
+for i in range(1, 4):
+    name = input(f"Nhập tên sinh viên {i}: ")
+    math_score = float(input("Nhập điểm Toán: "))
+    physics_score = float(input("Nhập điểm Lý: "))
+    chemistry_score = float(input("Nhập điểm Hóa: "))
+    average = (math_score + physics_score + chemistry_score) / 3
+    print(f"Sinh viên {name}: Điểm trung bình là {average:.2f}")
